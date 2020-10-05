@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "lemon-landing"
+    }
+  },
+  "defaultProject": "lemon-landing",
+  "cli": {
+    "analytics": false
+  }
 }
