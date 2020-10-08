@@ -42,7 +42,7 @@
 }
 
 .nav-item:hover{
-  color: #D84F00; /*#989858; #B84300*/
+  color: #D84F00;  /*#989858; #B84300*/
 }
 
 li{
@@ -62,6 +62,12 @@ a{
   color: #FFF;
   font-size: 1.8rem;
   font-weight: bold;
+}
+
+.ref-to-website:hover{
+  padding: 0.8em 1.2em;
+  font-size: 2rem;
+  background-color: #0094B4;
 }
 
 .title{
