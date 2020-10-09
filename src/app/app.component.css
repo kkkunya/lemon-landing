@@ -1,7 +1,7 @@
 .container{
   text-align: center;
   margin-top: 3em;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 300;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .nav-item{
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -60,13 +60,13 @@ a{
   border-radius: 0.5em;
   padding: 0.5em 1em;
   color: #FFF;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 
 .ref-to-website:hover{
   padding: 0.8em 1.2em;
-  font-size: 2rem;
+  font-size: 1.8rem;
   background-color: #0094B4;
 }
 
@@ -75,7 +75,7 @@ a{
   margin-top: 3em;
   margin-bottom: 1em;
   font-weight: bold;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
 }
 
 .description{
@@ -83,12 +83,12 @@ a{
   margin-right: auto;
   text-align: justify;
   max-width: 80%;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 3em;
 }
 
 .paragraph-title{
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -114,7 +114,7 @@ a{
 .uvp-text{
   color: #121212;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   width: 40%;
   font-family: 'Source Sans Pro';
 }
@@ -135,14 +135,14 @@ a{
 .adv-title{
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   flex-grow: 1;
 }
 
 .adv-text{
   flex-grow: 1;
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #272727;
   width: 80%;
 }
@@ -169,14 +169,14 @@ a{
 .team-member{
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   flex-grow: 1;
 }
 
 .team-role{
   flex-grow: 1;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #272727;
   margin-top: 0rem;
   margin-bottom: 0rem;
@@ -210,7 +210,7 @@ iframe{
 
 .contact{
   margin: 4em auto;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
 }
 
 footer{
@@ -221,7 +221,7 @@ footer{
 }
 
 .footer-title{
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
   color: #FFF;
 }
@@ -244,7 +244,7 @@ footer{
 .fa{
   margin: 0.5em 0.5em;
   padding: 0.5em 0.5em;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #CCC;
   border-style: solid;
   border-radius: 100%;
