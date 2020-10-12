@@ -73,18 +73,15 @@ a{
 .title{
   text-align: center;
   margin-top: 3em;
-  margin-bottom: 1em;
   font-weight: bold;
   font-size: 2.6rem;
 }
 
 .description{
-  margin-left: auto;
-  margin-right: auto;
+  margin: 2em auto 3em auto;
   text-align: justify;
   max-width: 80%;
   font-size: 1.6rem;
-  margin-bottom: 3em;
 }
 
 .paragraph-title{
@@ -104,7 +101,28 @@ a{
   text-align: center;
 }
 
-.uvp{
+.col1-uvp{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col2-uvp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col3-uvp{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col4-uvp{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -125,8 +143,7 @@ a{
 
 .body-container
 {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: 2em auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -203,9 +220,8 @@ a{
   flex-grow: 2;
 }
 
-iframe{
+.map{
   width: 55%;
-  min-height: 10px;
 }
 
 .contact{
@@ -252,4 +268,189 @@ footer{
 
 .fa:hover{
   color: #FFF;
+}
+
+@media (max-width:414px) {
+    .container{
+      margin-top: 2em;
+      font-size: 1.2rem;
+    }
+
+    .banner{
+      flex-direction: column;
+      margin-top: 0;
+    }
+
+    .logo-container{
+      width: 100%;
+    }
+
+    .welcome-container{
+      width: 100%;
+    }
+
+    .navbar{
+      flex-direction: column;
+      margin: 0.5em auto;
+      padding-left: 0;
+      width: 100%;
+    }
+
+    .nav-item{
+      font-size: 0.8rem;
+    }
+
+    .title{
+      font-size: 1.4rem;
+      margin: 2em auto 1em, auto;
+    }
+
+    .description{
+      font-size: 1rem;
+      margin: 1em auto 2em auto;
+    }
+
+    .ref-to-website{
+      font-size: 1rem;
+    }
+
+    .ref-to-website:hover{
+      font-size: 1.1rem;
+    }
+
+    .paragraph-title{
+      font-size: 1.2rem;
+    }
+
+    .presentation{
+      width:90%;
+      height: 200px;
+    }
+
+    .col1-uvp{
+      flex-direction: column;
+    }
+
+    .col2-uvp{
+      flex-direction: column;
+      margin-top: 1em;
+    }
+
+    .col3-uvp{
+      flex-direction: column;
+      margin-top: 1em;
+    }
+
+    .col4-uvp{
+      flex-direction: column;
+      margin-top: 1em;
+    }
+
+    .uvp-text{
+      font-size: 1rem;
+      width: 80%;
+    }
+
+    .uvp-images{
+      width: 80%;
+    }
+
+    .body-container{
+      flex-direction: column;
+    }
+
+    .adv-images{
+      width: 30%;
+    }
+
+    .adv-title{
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+
+    .adv-text{
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    .team-image{
+        margin-top: 1em;
+    }
+
+    .dake{
+      margin-top: 0;
+      width: 30%;
+    }
+
+    .team-member{
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+
+    .team-role{
+      font-size: 0.8rem;
+    }
+
+    .cont-body-container{
+      flex-direction: column;
+    }
+    .col1{
+      margin: 0 0.5em;
+    }
+
+    .contact{
+      margin: 2em auto;
+      font-size: 0.8rem;
+    }
+
+    .map{
+      margin-top: 1em;
+      width: 80%;
+      height: 200px;
+    }
+
+    footer{
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      height: 55%;
+    }
+
+    .footer-title{
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .foot{
+      align-items: center;
+    }
+}
+
+
+
+@media (max-width:375px) {
+    .banner{
+      height: 140%;
+    }
+
+    .title{
+      margin: 1.5em auto 1em auto;
+    }
+
+    .presentation{
+      width: 80%;
+      height: 170px;
+    }
+
+    .uvp-images{
+      width: 70%;
+    }
+
+    .map{
+      height: 200px;
+    }
+
+    footer{
+      height: 70%;
+    }
 }
