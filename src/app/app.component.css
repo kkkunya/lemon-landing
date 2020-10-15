@@ -454,3 +454,32 @@ footer{
       height: 70%;
     }
 }
+
+@media (max-width:1024px) {
+
+  .banner{
+    height: 50%;
+  }
+
+  .title{
+    margin: 0.5em auto 1em auto;
+  }
+
+  .presentation{
+    width: 30%;
+    height: 200px;
+  }
+
+  .uvp-images{
+    width: 30%;
+  }
+
+  .map{
+    height: 200px;
+  }
+
+  footer{
+    height: 30%;
+
+  }
+}
